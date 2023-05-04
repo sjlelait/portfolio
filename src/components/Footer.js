@@ -1,5 +1,14 @@
+import React from "react";
+import { Container } from "react-bootstrap";
+
 function Footer() {
-    return <h1> Sara Le Lait copyright 2023 </h1>
-  }
+    return (
+        <footer className="bg-dark text-white fixed-bottom">
+      <Container className="py-3 text-center">
+        © 2023 Sara Le Lait
+      </Container>
+    </footer>
+    )
+  };
   
-  export default Footer
+  export default Footer;
