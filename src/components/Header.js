@@ -24,7 +24,7 @@ const Header = (props) => {
           aria-controls='basic-navbar-nav'
         />
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='mr-auto hamburger-menu' onClick={handleLinkClick}>
+          <Nav className='ml-auto hamburger-menu' onClick={handleLinkClick}>
             <Nav.Link as={Link} to='/'>
               Home
             </Nav.Link>
