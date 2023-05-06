@@ -7,7 +7,7 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 function Footer() {
     return (
         <footer className='bg-dark text-white fixed-bottom'>
-          <Container className='py-3 text-center'>
+          <Container className='py-3 text-center footer'>
             <div className='icon-container'>
               <a href='https://www.linkedin.com/in/saralelait/' 
                 target='_blank'
