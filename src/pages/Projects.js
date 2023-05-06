@@ -6,11 +6,13 @@ const Projects = (props) => {
       <Container className='projectCarousel'>
         <Carousel className='carousel'>
           <Carousel.Item>
-            <img
-              className='img-fluid projectImage'
-              src='https://github.com/sjlelait/disperse/raw/main/media/spot_images/detail.png'
-              alt='Disperse'
-            />
+            <div className='image-container'>
+              <img
+                className='d-block mx-auto img-fluid projectImage'
+                src='https://github.com/sjlelait/disperse/raw/main/media/spot_images/detail.png'
+                alt='Disperse'
+              />
+            </div>
             <Carousel.Caption>
               <h3>Disperse</h3>
               <p>
@@ -25,11 +27,13 @@ const Projects = (props) => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className='img-fluid projectImage'
-              src='https://i.imgur.com/LDxH1yo.png'
-              alt='onit'
-            />
+            <div className='image-container'>
+              <img
+                className='d-block mx-auto img-fluid projectImage'
+                src='https://i.imgur.com/LDxH1yo.png'
+                alt='onit'
+              />
+            </div>
             <Carousel.Caption>
               <h3>onit</h3>
               <p>
@@ -40,12 +44,13 @@ const Projects = (props) => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className='img-fluid projectImage'
-              src='https://github.com/sjlelait/peculiar-charm/raw/main/Markdown/Peculiar%20Charm%20Index.png'
-              alt='Peculiar Charm'
-            />
-
+            <div className='image-container'>
+              <img
+                className='d-block mx-auto img-fluid projectImage'
+                src='https://github.com/sjlelait/peculiar-charm/raw/main/Markdown/Peculiar%20Charm%20Index.png'
+                alt='Peculiar Charm'
+              />
+            </div>
             <Carousel.Caption>
               <h3>Peculiar Charm</h3>
               <p>

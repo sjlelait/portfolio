@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.projectCarousel {
-  width: 80rem;
-  height: 40rem;
-  margin: 0 auto;
-  padding: 5rem 0 0 0;
-}
-
-.carousel {
-  background-color: black;
-}
-
 .icon-container {
   display: flex;
   justify-content: space-between;
@@ -26,6 +15,28 @@
   color: #fff;
   font-size: 2rem;
   margin: 0 2rem;
+}
+
+.projectCarousel {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5rem 0 0 0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px 
+    rgba(17,17,26,.1),0 8px 24px 
+    rgba(17,17,26,.1),0 16px 56px 
+    rgba(17,17,26,.1)!important;;
+}
+
+.carousel-caption {
+  position: sticky;
+  color: black !important;
+}
+
+.projectImage {
+  width: 30rem;
+  height: 25rem;
+  align-items: center;
 }
 
 .footerTxt {
