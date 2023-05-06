@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 import { Navbar, Nav } from 'react-bootstrap';
@@ -20,11 +20,11 @@ const Header = (props) => {
     >
         <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SJL</Navbar.Brand>
         <Navbar.Toggle
-          className='hamburger'
-          aria-controls='basic-navbar-nav'
+          className='navbar-toggler'
+          aria-controls='responsive-navbar-nav'
         />
-        <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='ml-auto hamburger-menu' onClick={handleLinkClick}>
+        <Navbar.Collapse id='responsive-navbar-nav' className='responsive-navbar'>
+          <Nav className='ms-auto' onClick={handleLinkClick}>
             <Nav.Link as={Link} to='/'>
               Home
             </Nav.Link>
