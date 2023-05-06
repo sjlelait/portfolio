@@ -10,55 +10,57 @@ const Home = (props) => {
         <Container>
           <Row>
             <Col md={7}>
-              <h2>Hey,</h2>
-              <h1>I'm Sara Le Lait</h1>
-              <Typewriter
-                options={{
-                  strings: [
-                    'Full Stack Developer',
-                    'Detail-Oriented Multi-tasker',
-                    'Nature Enthusiast',
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 50,
-                }}
-              />
+              <div className='intro-txt'>
+                <h2>Hi,</h2>
+                <h1 className='name-txt'>I'm Sara Le Lait</h1>
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Full Stack Developer',
+                      'Detail-Oriented Multi-tasker',
+                      'Nature Enthusiast',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                  }}
+                />
+              </div>              
               <div className='skills'>
                 <h3>Skills</h3>
                 <Row className='skills-row'>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faCss3Alt} /> CSS
+                      <FontAwesomeIcon icon={faCss3Alt} size='2x' /> CSS
                     </div>
                   </Col>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faHtml5} /> HTML
+                      <FontAwesomeIcon icon={faHtml5} size='2x' /> HTML
                     </div>
                   </Col>                
                 </Row>
                 <Row className='skills-row'>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faJsSquare} /> JavaScript
+                      <FontAwesomeIcon icon={faJsSquare} size='2x' /> JavaScript
                     </div>
                   </Col>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faNodeJs} /> NodeJS
+                      <FontAwesomeIcon icon={faNodeJs} size='2x' /> NodeJS
                     </div>
                   </Col>
                 </Row>
                 <Row className='skills-row'>              
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faReact} /> React
+                      <FontAwesomeIcon icon={faReact} size='2x' /> React
                     </div>
                   </Col>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faPython} /> Python
+                      <FontAwesomeIcon icon={faPython} size='2x' /> Python
                     </div>
                   </Col>
                 </Row>
