@@ -2,8 +2,15 @@
   text-align: center;
 }
 
-.footerTxt {
-  margin: .25rem;
+.projectCarousel {
+  width: 80rem;
+  height: 40rem;
+  margin: 0 auto;
+  padding: 5rem 0 0 0;
+}
+
+.carousel {
+  background-color: black;
 }
 
 .icon-container {
@@ -19,4 +26,8 @@
   color: #fff;
   font-size: 2rem;
   margin: 0 2rem;
+}
+
+.footerTxt {
+  margin: .25rem;
 }
