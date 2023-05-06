@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3Alt, faHtml5, faJsSquare, faNodeJs, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 
 const Home = (props) => {
     return (
-      <div className="homePageContent">
+      <div className='homePageContent'>
         <Container>
           <Row>
             <Col md={7}>
@@ -13,27 +15,60 @@ const Home = (props) => {
               <Typewriter
                 options={{
                   strings: [
-                    "Full Stack Developer",
-                    "Detail-Oriented Multi-tasker",
-                    "Nature Enthusiast",
+                    'Full Stack Developer',
+                    'Detail-Oriented Multi-tasker',
+                    'Nature Enthusiast',
                   ],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 50,
                 }}
               />
-              <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>React JS</li>
-              </ul>
+              <div className='skills'>
+                <Row>
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faCss3Alt} />
+                    </div>
+                  </Col>
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faHtml5} />
+                    </div>
+                  </Col>                
+                </Row>
+                <Row>
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faJsSquare} />
+                    </div>
+                  </Col>
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faNodeJs} />
+                    </div>
+                  </Col>
+                </Row>
+                <Row>              
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faReact} />
+                    </div>
+                  </Col>
+                  <Col md={3} className='iconCol'>
+                    <div className='icon'>
+                      <FontAwesomeIcon icon={faPython} />
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+            <Col md={5}>
+                <p>image</p>
             </Col>
           </Row>
         </Container>        
-      </div>    
+      </div>
     )
   };
   

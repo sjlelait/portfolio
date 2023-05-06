@@ -25,7 +25,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>    
-            <p>© 2023 Sara Le Lait</p>        
+            <p className='footerTxt'>© 2023 Sara Le Lait</p>        
           </Container>
         </footer>
     )

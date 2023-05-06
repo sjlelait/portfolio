@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.footerTxt {
+  margin: .25rem;
+}
+
 .icon-container {
   display: flex;
   justify-content: space-between;
