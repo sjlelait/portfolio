@@ -65,7 +65,7 @@ const Home = (props) => {
               </div>
             </Col>
             <Col md={5}>
-                <p>image</p>
+                <img className='home-img' src='https://disperse-sjl.s3.us-east-2.amazonaws.com/github+girl.png' alt='github-girl'></img>
             </Col>
           </Row>
         </Container>        

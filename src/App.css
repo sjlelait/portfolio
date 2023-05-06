@@ -12,9 +12,9 @@ body, html {
 .page-container {
   border-radius: 1rem;
   box-shadow: 0 .15rem 1rem 
-    rgba(17,17,26,.1),0 .5rem 2rem 
-    rgba(17,17,26,.1),0 1rem 3rem 
-    rgba(17,17,26,.1)!important;
+    rgba(8, 8, 12, 0.1),0 .5rem 2rem 
+    rgba(8, 8, 12, 0.1),0 1rem 3rem 
+    rgba(8, 8, 12, 0.1)!important;
     padding: 2rem;
     margin: 2rem;
 }
@@ -27,9 +27,9 @@ body, html {
   margin: 1rem;
   border-radius: 1rem;
   box-shadow: 0 .15rem 1rem 
-    rgba(17,17,26,.1),0 .5rem 2rem 
-    rgba(17,17,26,.1),0 1rem 3rem 
-    rgba(17,17,26,.1)!important;
+    rgba(8, 8, 12, 0.1),0 .5rem 2rem 
+    rgba(8, 8, 12, 0.1),0 1rem 3rem 
+    rgba(8, 8, 12, 0.1)!important;
 }
 
 .icon-container {
@@ -47,6 +47,13 @@ body, html {
   margin: 0 2rem;
 }
 
+.home-img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  margin: 10rem 0 0 2rem;
+}
+
 .carousel-caption {
   position: sticky !important;
   color: black !important;
@@ -56,6 +63,9 @@ body, html {
   width: 20rem;
   height: 15rem;
   align-items: center;
+  border-radius: .5rem;
+  border-color: black;
+  border-style: solid;
 }
 
 .footerTxt {
