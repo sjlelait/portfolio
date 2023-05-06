@@ -25,39 +25,40 @@ const Home = (props) => {
                 }}
               />
               <div className='skills'>
-                <Row>
-                  <Col md={3} className='iconCol'>
+                <h3>Skills</h3>
+                <Row className='skills-row'>
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faCss3Alt} />
+                      <FontAwesomeIcon icon={faCss3Alt} /> CSS
                     </div>
                   </Col>
-                  <Col md={3} className='iconCol'>
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faHtml5} />
+                      <FontAwesomeIcon icon={faHtml5} /> HTML
                     </div>
                   </Col>                
                 </Row>
-                <Row>
-                  <Col md={3} className='iconCol'>
+                <Row className='skills-row'>
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faJsSquare} />
+                      <FontAwesomeIcon icon={faJsSquare} /> JavaScript
                     </div>
                   </Col>
-                  <Col md={3} className='iconCol'>
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faNodeJs} />
+                      <FontAwesomeIcon icon={faNodeJs} /> NodeJS
                     </div>
                   </Col>
                 </Row>
-                <Row>              
-                  <Col md={3} className='iconCol'>
+                <Row className='skills-row'>              
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faReact} />
+                      <FontAwesomeIcon icon={faReact} /> React
                     </div>
                   </Col>
-                  <Col md={3} className='iconCol'>
+                  <Col md={6} className='iconCol'>
                     <div className='icon'>
-                      <FontAwesomeIcon icon={faPython} />
+                      <FontAwesomeIcon icon={faPython} /> Python
                     </div>
                   </Col>
                 </Row>
