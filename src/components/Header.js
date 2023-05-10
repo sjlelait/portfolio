@@ -7,27 +7,27 @@ import { Navbar, Nav } from 'react-bootstrap';
 const Header = (props) => {
   const [expanded, setExpanded] = useState(false);
 
-  const handleLinkClick = () => {
-    setExpanded(false);
-  };
-
     return (
       <Navbar
-      className='navbar'
-      expanded={expanded}
-      onToggle={setExpanded}
-      expand='false'
-    >
-        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SJL</Navbar.Brand>
+        className='navbar'
+        expanded={expanded}
+        expand='md'
+      >
+        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>
+          <img className='brand-img'src="https://disperse-sjl.s3.us-east-2.amazonaws.com/milk.png" alt='SJL' />
+        </Navbar.Brand>
         <Navbar.Toggle
           className='navbar-toggler'
           aria-controls='responsive-navbar-nav'
-        />
+          onClick={() => {
+            setExpanded(expanded ? false : 'expanded');
+          }}>
+        </Navbar.Toggle>
         <Navbar.Collapse id='responsive-navbar-nav' className='responsive-navbar'>
-          <Nav className='ms-auto' onClick={handleLinkClick}>
+          <Nav className='ms-auto nav-links justify-content-between'>
             <Nav.Link as={Link} to='/'>
               Home
-            </Nav.Link>
+            </Nav.Link>            
             <Nav.Link as={Link} to='/projects'>
               Projects
             </Nav.Link>

@@ -21,6 +21,18 @@ body, html {
     margin: 2rem;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 0 2rem 0 0;
+}
+
+img.brand-img {
+  width: 3rem;
+  height: 3.5rem;
+}
+
 .name-txt {
   padding: 1rem 0 0 0;
 }
