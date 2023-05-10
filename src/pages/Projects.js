@@ -4,6 +4,7 @@ import { Container, Carousel } from 'react-bootstrap';
 const Projects = (props) => {
     return (
       <Container className='page-container'>
+        <h1>Featured Projects</h1>
         <Carousel className='carousel' variant='dark'>
           <Carousel.Item>
             <div className='image-container'>

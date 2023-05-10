@@ -26,11 +26,19 @@ body, html {
   justify-content: space-between;
   width: 75%;
   padding: 0 2rem 0 0;
+  color: black !important;
 }
 
 img.brand-img {
   width: 3rem;
   height: 3.5rem;
+}
+
+.home-img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  margin: 10rem 0 0 2rem;
 }
 
 .name-txt {
@@ -74,13 +82,6 @@ img.brand-img {
   color: rgb(255, 191, 28);
   font-size: 2rem;
   margin: 0 2rem;
-}
-
-.home-img {
-  width: 100%;
-  height: auto;
-  align-items: center;
-  margin: 10rem 0 0 2rem;
 }
 
 .carousel-caption {
