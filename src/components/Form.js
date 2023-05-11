@@ -12,7 +12,7 @@ function Form(props) {
 
     const encode = ({ name, email, message }) => { 
         return `form-name=contact&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
-    };
+    }; 
 
     const handleChange = (event) => {
         setFormState({
@@ -38,14 +38,15 @@ function Form(props) {
     return (
         <Container className='my-5'>
             <form 
+                onSubmit={handleSubmit}
                 data-netlify="true" 
                 name="contact"
                 action="#"
-                onSubmit={handleSubmit}
             >
             <input type="hidden" name="form-name"  value="contact" />
-            <label>Name:</label>
+            <label htmlFor="name">Name:</label>
                 <input 
+                    id="name"
                     type="text" 
                     name="name" 
                     onChange={handleChange} 
@@ -53,8 +54,9 @@ function Form(props) {
                     className="form-control mb-3"
                 />
                 
-            <label>Email:</label>
+                <label htmlFor="email">Email:</label>
                 <input 
+                    id="email"
                     type="text" 
                     name="email" 
                     onChange={handleChange}
@@ -62,15 +64,15 @@ function Form(props) {
                     className="form-control mb-3"
                 />
                 
-            <label>Message:</label>
-                <textarea 
+                <label htmlFor="message">Message:</label>
+                <textarea
+                    id="message" 
                     name="message" 
                     onChange={handleChange}
                     value={message}
                     className="form-control mb-3"
-                ></textarea>
-                
-            <button type="submit" className="btn btn-dark">Send Message</button>
+                ></textarea>                
+                <button type="submit" className="btn btn-dark">Send Message</button>
             </form>
         </Container>
     )
