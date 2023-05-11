@@ -27,7 +27,7 @@ function Form(props) {
             headers: {
                 'Content-type': 'application/x-www-form-urlencoded'
             },
-            body: encode(formState)
+            body: encode({ "form-name": "contact", formState })
         });
 
         setFormState(getNewState());
