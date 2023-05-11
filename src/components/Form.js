@@ -40,6 +40,7 @@ function Form(props) {
             <form 
                 data-netlify="true" 
                 name="contact"
+                action="#"
                 onSubmit={handleSubmit}
             >
             <input type="hidden" name="form-name"  value="contact" />
