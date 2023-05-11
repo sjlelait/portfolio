@@ -38,7 +38,8 @@ function Form(props) {
     return (
         <Container className="my-5">
             <form onSubmit={handleSubmit}>
-                <label>Name:</label>
+            <input type="hidden" name="form-name"  value="contact" />
+            <label>Name:</label>
                 <input 
                     type="text" 
                     name="name" 
