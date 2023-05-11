@@ -2,17 +2,35 @@ import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 
 function Form(props) {
-    const [formState, setFormState] = useState({
+    const getNewState = () => ({
         name: '',
         email: '',
         message: ''
     });
 
-    const handleChange = (event) => {
+    const [formState, setFormState] = useState(getNewState());
 
+    const encode = ({ name, email, message }) => { 
+        return `form-name=contact&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
     };
-    const handleSubmit = (event) => {
 
+    const handleChange = (event) => {
+        setFormState({
+            ...formState,
+            [event.target.name]: event.target.value
+        });
+    };
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        await fetch('/', {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/x-www-form-urlencoded'
+            },
+            body: encode(formState)
+        });
+
+        setFormState(getNewState());
     };
 
     const { name, email, message } = formState;
