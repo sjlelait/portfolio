@@ -1,8 +1,8 @@
-body, html {
+body {
   background: linear-gradient(to top right, #ff630f, #ffcf20);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: calc(100vh - 6.5rem);
 }
 
 .App {
@@ -29,9 +29,8 @@ body, html {
   color: black !important;
 }
 
-img.brand-img {
-  width: 3rem;
-  height: 3.5rem;
+.navbar-brand-link {
+  padding: 0 0 0 1.5rem;
 }
 
 .home-img {
@@ -98,6 +97,25 @@ img.brand-img {
   border-style: solid;
 }
 
+.btn {
+  background:rgb(0, 0, 0);
+
+}
+
+.App::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+}
+
+.App::-webkit-scrollbar-track {
+  background-color: rgb(255, 191, 28);
+}
+
+.App::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
 .footerTxt {
   margin: .15rem;
   color: rgb(254, 228, 125);
@@ -105,4 +123,12 @@ img.brand-img {
 
 .footer {
   height: 6.5rem;
+}
+
+@media (max-width: 767px) {
+  .home-img {
+    width: 7rem;
+    height: 7rem;
+    margin: 2rem;
+  }
 }

@@ -13,9 +13,7 @@ const Header = (props) => {
         expanded={expanded}
         expand='md'
       >
-        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>
-          <img className='brand-img'src="https://disperse-sjl.s3.us-east-2.amazonaws.com/milk.png" alt='SJL' />
-        </Navbar.Brand>
+        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SJL</Navbar.Brand>
         <Navbar.Toggle
           className='navbar-toggler'
           aria-controls='responsive-navbar-nav'
