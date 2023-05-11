@@ -37,7 +37,11 @@ function Form(props) {
     
     return (
         <Container className="my-5">
-            <form onSubmit={handleSubmit}>
+            <form 
+                onSubmit={handleSubmit}
+                data-netlify="true" 
+                name="contact"
+            >
             <input type="hidden" name="form-name"  value="contact" />
             <label>Name:</label>
                 <input 
