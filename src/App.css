@@ -24,7 +24,7 @@ body {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 60%;
   padding: 0 2rem 0 0;
   color: black !important;
 }

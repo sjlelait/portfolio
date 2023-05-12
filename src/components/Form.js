@@ -38,9 +38,9 @@ function Form(props) {
     return (
         <Container className='my-5'>
             <form 
-                onSubmit={handleSubmit}
-                data-netlify="true" 
+                data-netlify="true"
                 name="contact"
+                onSubmit={handleSubmit}
             >
             <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="name">Name:</label>
