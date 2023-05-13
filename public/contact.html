@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="./App.css">
   </head>
   <body>
-    <div className='App'>
-        <h1>Form submission successful!</h1>
-        <p>Thank you for your submission.</p>
-    </div>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
   </body>
 </html>
