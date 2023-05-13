@@ -38,6 +38,8 @@ function Form(props) {
     const { name, email, message } = formState;
     return (
         <Container className='my-5'>
+            <h3>Contact Sara Le Lait</h3>
+            < br/>
             <form name="contact" data-netlify="true" method="POST" onSubmit={handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name">Name:</label>

@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to top right, #ff630f, #ffcf20);
+  background: linear-gradient(to top right, #fa7406, #f9d039);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: calc(100vh - 6.5rem);
@@ -22,6 +22,10 @@ body {
     margin: 2rem;
 }
 
+.navbar {
+  height: 5rem;
+}
+
 .nav-links, .nav-link {
   display: flex;
   justify-content: space-between;
@@ -31,7 +35,8 @@ body {
 }
 
 .nav-links:hover, .nav-link:hover, .resume-link:hover, .project-link:hover {
-  color:#858585 !important;
+  color:#4a4a4a !important;
+  text-shadow: #282729;
 }
 
 .navbar-brand-link {
@@ -52,7 +57,7 @@ body {
 }
 
 .intro-txt {
-  padding: 1rem 0 3rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .Typewriter {
