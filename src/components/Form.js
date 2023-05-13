@@ -1,3 +1,4 @@
+Copy code
 import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 
@@ -20,6 +21,7 @@ function Form(props) {
             [event.target.name]: event.target.value
         });
     };
+
     const handleSubmit = async (event) => {
         event.preventDefault();
         await fetch('/', {
@@ -27,14 +29,13 @@ function Form(props) {
             headers: {
                 'Content-type': 'application/x-www-form-urlencoded'
             },
-            body: encode({ "form-name": "contact", formState })
+            body: encode(formState)
         });
-
         setFormState(getNewState());
     };
 
     const { name, email, message } = formState;
-    
+
     return (
         <Container className='my-5'>
             <form 
@@ -42,8 +43,8 @@ function Form(props) {
                 name="contact"
                 onSubmit={handleSubmit}
             >
-            <input type="hidden" name="form-name" value="contact" />
-            <label htmlFor="name">Name:</label>
+                <input type="hidden" name="form-name" value="contact" />
+                <label htmlFor="name">Name:</label>
                 <input 
                     id="name"
                     type="text" 
