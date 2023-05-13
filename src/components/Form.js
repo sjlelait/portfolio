@@ -23,6 +23,7 @@ function Form(props) {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+        console.log('Form submitted!');
         await fetch('/', {
             method: 'POST',
             headers: {
