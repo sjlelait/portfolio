@@ -36,7 +36,6 @@ function Form(props) {
     };
 
     const { name, email, message } = formState;
-
     return (
         <Container className='my-5'>
             <form name="contact" data-netlify="true" method="POST" onSubmit={handleSubmit}>
@@ -49,18 +48,16 @@ function Form(props) {
                     onChange={handleChange} 
                     value={name}
                     className="form-control mb-3"
-                />
-                
+                />                
                 <label htmlFor="email">Email:</label>
                 <input 
                     id="email"
-                    type="email" 
+                    type="text" 
                     name="email" 
                     onChange={handleChange}
                     value={email}
                     className="form-control mb-3"
-                />
-                
+                />                
                 <label htmlFor="message">Message:</label>
                 <textarea
                     id="message" 
@@ -72,7 +69,7 @@ function Form(props) {
                 <button type="submit" className="btn btn-dark">Send Message</button>
             </form>
         </Container>
-    )
+    );
 }
 
 export default Form;
