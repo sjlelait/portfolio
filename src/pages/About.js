@@ -23,13 +23,14 @@ const About = (props) => {
                 Together, we can create software that not only meets the needs of our clients 
                 but exceeds their expectations.</p>
                 < br/>
-                <h6>See my full resume{' '}
-                    <Button variant='dark' size='sm' 
-                        href='https://docs.google.com/document/d/159n7Miyf09AbafWpN35wPPPHh6WZMlSkJF03pfsyXZo/edit?usp=sharing'
-                        target='_blank' 
-                        rel='noopener noreferrer'>HERE
+                <h5>See my full resume{' '}
+                <Button 
+                    variant='dark' size='sm' 
+                    href='https://docs.google.com/document/d/159n7Miyf09AbafWpN35wPPPHh6WZMlSkJF03pfsyXZo/edit?usp=sharing'
+                    target='_blank' 
+                    rel='noopener noreferrer'>HERE
                     </Button>
-                </h6>
+                </h5>
         </Container>
     )
   };

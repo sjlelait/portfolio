@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 
 function Form(props) {
+
     const getNewState = () => ({
         name: '',
         email: '',
@@ -32,7 +33,8 @@ function Form(props) {
             body: encode(formState)
         });
         setFormState(getNewState());
-        window.location.replace('/index.html');
+        alert('Your form has been submitted!');
+        window.location.href = '/';
     };
 
     const { name, email, message } = formState;
