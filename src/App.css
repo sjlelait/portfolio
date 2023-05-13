@@ -9,6 +9,7 @@ body {
   text-align: center;
   padding-bottom: 6.5rem;
   min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .page-container {
@@ -21,17 +22,20 @@ body {
     margin: 2rem;
 }
 
-.nav-links {
+.nav-links, .nav-link {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  padding: 0 2rem 0 0;
-  color: black !important;
+  width: 65%;
+  color: #1f1f1f !important;
+  font-size: large;
+}
+
+.nav-links:hover, .nav-link:hover {
+  color:#8c849a !important;
 }
 
 .navbar-brand-link {
   padding: 0 0 0 1.5rem;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Great Vibes', cursive;
   font-weight: 700;
 }
@@ -124,11 +128,11 @@ body {
 
 }
 
-.resume-link {
-  color:#5c03ec;
+.resume-link, .project-link {
+  color:#7203d9;
 }
 
-.resume-link:hover {
+.resume-link:hover, .project-link:hover {
   color:#8c849a;
 }
 

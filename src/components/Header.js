@@ -23,6 +23,9 @@ const Header = (props) => {
         </Navbar.Toggle>
         <Navbar.Collapse id='responsive-navbar-nav' className='responsive-navbar'>
           <Nav className='ms-auto nav-links justify-content-between'>
+            <Nav.Link as={Link} to='/' onClick={() => setExpanded(false)}>
+              Home
+            </Nav.Link>
             <Nav.Link as={Link} to='/about' onClick={() => setExpanded(false)}>
               About
             </Nav.Link>     

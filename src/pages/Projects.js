@@ -5,6 +5,7 @@ const Projects = (props) => {
     return (
       <Container className='page-container'>
         <h1>Featured Projects</h1>
+        < br/>
         <Carousel className='carousel' variant='dark'>
           <Carousel.Item>
             <div className='image-container'>
@@ -24,7 +25,22 @@ const Projects = (props) => {
                 Other features include local weather data fetched from WeatherAPI 
                 and photo upload capabilities.
               </p>
-              <a href='https://disperse.herokuapp.com/'>See the Deployed App</a>
+              <p>
+                <a
+                  className='project-link' 
+                  href='https://disperse.herokuapp.com/' 
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >Deployed App | 
+                </a>
+                <a
+                  className='project-link' 
+                  href='https://github.com/sjlelait/disperse'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                > GitHub
+                </a>
+              </p>              
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -40,8 +56,25 @@ const Projects = (props) => {
               <p>
                 A task Management tool for the go-getter who wants to maintain balance and self-care.
                 Users will log-in through Google Firebase to create and manage their own personal to-do lists 
-                using full CRUD operations.
+                using full CRUD operations. I had the role of Lead Backend and Database Manager. I also assisted 
+                with features on the front end.
               </p>
+              <p>
+                <a 
+                  className='project-link'
+                  href='https://onit-notes.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >Deployed App |
+                </a>
+                <a
+                  className='project-link' 
+                  href='https://git.generalassemb.ly/smedina2494/onit-backend'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                > GitHub
+                </a>
+              </p>              
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -58,7 +91,22 @@ const Projects = (props) => {
                 A Gallery of the Unique and Odd. 
                 User can login to view, edit, contribute to or delete pieces in the collection.
               </p>
-              <a href='https://peculiar-charm.herokuapp.com/'>See the Deployed App</a>
+              <p>
+                <a
+                  className='project-link' 
+                  href='https://peculiar-charm.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >Deployed App |
+                </a>
+                <a 
+                  className='project-link'
+                  href='https://github.com/sjlelait/peculiar-charm'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                > GitHub
+                </a>
+              </p>              
             </Carousel.Caption>
           </Carousel.Item>
       </Carousel>
