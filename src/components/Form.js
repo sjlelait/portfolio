@@ -32,6 +32,7 @@ function Form(props) {
             body: encode(formState)
         });
         setFormState(getNewState());
+        alert('Form submitted successfully!');
     };
 
     const { name, email, message } = formState;
