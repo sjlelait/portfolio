@@ -27,7 +27,6 @@ const Home = (props) => {
                 />
               </div>              
               <div className='skills'>
-                <h3>Skills</h3>
                 <Row className='skills-row'>
                   <Col md={6} className='iconCol'>
                     <div className='icon'>

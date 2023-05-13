@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to top right, #fa7406, #f9d039);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: calc(100vh - 6.5rem);
+  min-height: calc(100vh - 6rem);
 }
 
 .App {
@@ -47,29 +47,27 @@ body {
 
 .logo {
   width: 18rem;
-  padding: 0 0 2rem 0;
+  padding: 1rem 0 1rem 0;
 }
+
 .home-img {
   width: 100%;
   height: auto;
   align-items: center;
-  margin: 10rem 0 0 2rem;
-}
-
-.name-txt {
-  padding: 1rem 0 0 0;
-}
-
-.intro-txt {
-  padding: 2rem 0 3rem 0;
+  margin: 7rem 0 0 3rem;
+  max-width: 25rem;
 }
 
 .Typewriter {
-  padding: 1rem;
+  padding: 1rem 0 2rem 0;
 }
 
 .Typewriter__wrapper {
   font-size: 1.5rem !important;
+}
+
+.skills-text {
+  padding: 1rem 0 0 0;
 }
 
 .skills-row {
@@ -146,12 +144,11 @@ body {
 }
 
 .footerTxt {
-  margin: .15rem;
   color: #fee47d;
 }
 
 .footer {
-  height: 6.5rem;
+  height: 6rem;
 }
 
 @media (max-width: 767px) {
