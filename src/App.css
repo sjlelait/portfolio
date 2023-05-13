@@ -30,8 +30,8 @@ body {
   font-size: large;
 }
 
-.nav-links:hover, .nav-link:hover {
-  color:#8c849a !important;
+.nav-links:hover, .nav-link:hover, .resume-link:hover, .project-link:hover {
+  color:#858585 !important;
 }
 
 .navbar-brand-link {
@@ -129,11 +129,11 @@ body {
 }
 
 .resume-link, .project-link {
-  color:#7203d9;
+  color:#054c36;
 }
 
 .resume-link:hover, .project-link:hover {
-  color:#8c849a;
+  color:#a4a4a4;
 }
 
 .footerTxt {

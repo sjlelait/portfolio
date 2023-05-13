@@ -19,6 +19,7 @@ const Home = (props) => {
                       'Full Stack Developer',
                       'Detail-Oriented Multi-tasker',
                       'Nature Enthusiast',
+                      'Creative Collaborator'
                     ],
                     autoStart: true,
                     loop: true,

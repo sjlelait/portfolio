@@ -16,7 +16,7 @@ const Projects = (props) => {
               />
             </div>
             <Carousel.Caption>
-              <h3>Disperse</h3>
+              <h2>Disperse</h2>
               <p>
                 A full-stack Django App for wilderness lovers and adventurers. 
                 User's can login with Django's built-in authentication to keep track of 
@@ -52,7 +52,7 @@ const Projects = (props) => {
               />
             </div>
             <Carousel.Caption>
-              <h3>onit</h3>
+              <h2>onit</h2>
               <p>
                 A task Management tool for the go-getter who wants to maintain balance and self-care.
                 Users will log-in through Google Firebase to create and manage their own personal to-do lists 
@@ -86,14 +86,14 @@ const Projects = (props) => {
               />
             </div>
             <Carousel.Caption>
-              <h3>Peculiar Charm</h3>
+              <h2>Peculiar Charm</h2>
               <p>
                 A Gallery of the Unique and Odd. 
                 User can login to view, edit, contribute to or delete pieces in the collection.
               </p>
               <p>
                 <a
-                  className='project-link' 
+                  className='project-link'
                   href='https://peculiar-charm.herokuapp.com/'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -106,7 +106,7 @@ const Projects = (props) => {
                   rel='noopener noreferrer'
                 > GitHub
                 </a>
-              </p>              
+              </p>             
             </Carousel.Caption>
           </Carousel.Item>
       </Carousel>
