@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 const About = (props) => {
     return (
         <Container className='page-container'>
+            <img className="profile-img"src="https://disperse-sjl.s3.us-east-2.amazonaws.com/Profile.jpg" alt="Sara Le Lait" />
             <h1>Sara Le Lait</h1>
             <h3>Software Developer</h3>
             <p>As a professional, I've had the opportunity to wear many hats, 

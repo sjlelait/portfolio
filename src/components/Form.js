@@ -32,7 +32,7 @@ function Form(props) {
             body: encode(formState)
         });
         setFormState(getNewState());
-        window.location.replace('/contact.html');
+        window.location.replace('/index.html');
     };
 
     const { name, email, message } = formState;

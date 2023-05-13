@@ -13,7 +13,7 @@ const Header = (props) => {
         expanded={expanded}
         expand='md'
       >
-        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SJL</Navbar.Brand>
+        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SL</Navbar.Brand>
         <Navbar.Toggle
           className='navbar-toggler'
           aria-controls='responsive-navbar-nav'
@@ -28,9 +28,6 @@ const Header = (props) => {
             </Nav.Link>     
             <Nav.Link as={Link} to='/projects' onClick={() => setExpanded(false)}>
               Projects
-            </Nav.Link>
-            <Nav.Link as={Link} to='/resume' onClick={() => setExpanded(false)}>
-              Resume
             </Nav.Link>            
             <Nav.Link as={Link} to='/contact' onClick={() => setExpanded(false)}>
               Contact
