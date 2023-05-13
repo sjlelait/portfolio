@@ -50,6 +50,7 @@ body {
 .Typewriter {
   padding: 1rem;
 }
+
 .Typewriter__wrapper {
   font-size: 1.5rem !important;
 }
@@ -100,6 +101,10 @@ body {
 .btn {
   background:rgb(0, 0, 0);
 
+}
+
+.resume-link {
+  color:#0ed055;
 }
 
 .App::-webkit-scrollbar {

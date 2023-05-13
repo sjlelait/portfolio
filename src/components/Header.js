@@ -28,6 +28,9 @@ const Header = (props) => {
             </Nav.Link>     
             <Nav.Link as={Link} to='/projects' onClick={() => setExpanded(false)}>
               Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to='/resume' onClick={() => setExpanded(false)}>
+              Resume
             </Nav.Link>            
             <Nav.Link as={Link} to='/contact' onClick={() => setExpanded(false)}>
               Contact
