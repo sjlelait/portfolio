@@ -37,11 +37,7 @@ function Form(props) {
 
     return (
         <Container className='my-5'>
-            <form 
-                data-netlify="true"
-                name="contact"
-                onSubmit={handleSubmit}
-            >
+            <form name="contact" data-netlify="true" method="POST" onSubmit={handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name">Name:</label>
                 <input 
@@ -56,7 +52,7 @@ function Form(props) {
                 <label htmlFor="email">Email:</label>
                 <input 
                     id="email"
-                    type="text" 
+                    type="email" 
                     name="email" 
                     onChange={handleChange}
                     value={email}
