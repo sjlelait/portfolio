@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Carousel } from 'react-bootstrap';
+import { Container, Carousel, Button } from 'react-bootstrap';
 
 const Projects = (props) => {
     return (
@@ -25,22 +25,21 @@ const Projects = (props) => {
                 Other features include local weather data fetched from WeatherAPI 
                 and photo upload capabilities.
               </p>
-              <p>
-                <a
-                  className='project-link' 
-                  href='https://disperse.herokuapp.com/' 
-                  target='_blank'
+              <div className='d-flex justify-content-center'>
+                <Button
+                  variant='dark' size='sm' 
+                  href='https://disperse.herokuapp.com/'
+                  target='_blank' 
                   rel='noopener noreferrer'
-                >Deployed App | 
-                </a>
-                <a
-                  className='project-link' 
+                  style={{marginRight: '1rem'}}>Deployed App
+                </Button>
+                <Button
+                  variant='dark' size='sm' 
                   href='https://github.com/sjlelait/disperse'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                > GitHub
-                </a>
-              </p>              
+                  target='_blank' 
+                  rel='noopener noreferrer'>GitHub
+                </Button>
+              </div>              
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -59,22 +58,21 @@ const Projects = (props) => {
                 using full CRUD operations. I had the role of Lead Backend and Database Manager. I also assisted 
                 with features on the front end.
               </p>
-              <p>
-                <a 
-                  className='project-link'
+              <div className='d-flex justify-content-center'>
+                <Button
+                  variant='dark' size='sm' 
                   href='https://onit-notes.netlify.app/'
-                  target='_blank'
+                  target='_blank' 
                   rel='noopener noreferrer'
-                >Deployed App |
-                </a>
-                <a
-                  className='project-link' 
+                  style={{marginRight: '1rem'}}>Deployed App
+                </Button>
+                <Button
+                  variant='dark' size='sm' 
                   href='https://git.generalassemb.ly/smedina2494/onit-backend'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                > GitHub
-                </a>
-              </p>              
+                  target='_blank' 
+                  rel='noopener noreferrer'>GitHub
+                </Button>
+              </div>              
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -91,22 +89,21 @@ const Projects = (props) => {
                 A Gallery of the Unique and Odd. 
                 User can login to view, edit, contribute to or delete pieces in the collection.
               </p>
-              <p>
-                <a
-                  className='project-link'
+              <div className='d-flex justify-content-center'>
+                <Button
+                  variant='dark' size='sm' 
                   href='https://peculiar-charm.herokuapp.com/'
-                  target='_blank'
+                  target='_blank' 
                   rel='noopener noreferrer'
-                >Deployed App |
-                </a>
-                <a 
-                  className='project-link'
+                  style={{marginRight: '1rem'}}>Deployed App
+                </Button>
+                <Button
+                  variant='dark' size='sm' 
                   href='https://github.com/sjlelait/peculiar-charm'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                > GitHub
-                </a>
-              </p>             
+                  target='_blank' 
+                  rel='noopener noreferrer'>GitHub
+                </Button>
+              </div>           
             </Carousel.Caption>
           </Carousel.Item>
       </Carousel>
