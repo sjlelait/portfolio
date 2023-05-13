@@ -11,8 +11,7 @@ const Home = (props) => {
           <Row>
             <Col md={7}>
               <div className='intro-txt'>
-                <h2>Hi,</h2>
-                <h1 className='name-txt'>I'm Sara Le Lait</h1>
+                <img className="logo" src="https://disperse-sjl.s3.us-east-2.amazonaws.com/Sara-logo.png" alt="Sara Le Lait" />
                 <Typewriter
                   options={{
                     strings: [
