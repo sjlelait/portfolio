@@ -8,7 +8,7 @@ const Projects = (props) => {
         <h1>Featured Projects</h1>
         </Row>
         < br/>
-        <Carousel className='carousel' variant='dark'>
+        <Carousel className='carousel' interval='9000' variant='dark'>
           <Carousel.Item>
             <div className='image-container'>
               <img
