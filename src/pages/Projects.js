@@ -19,8 +19,8 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>Disperse</h2>
+              <p>A full-stack Django App for wilderness lovers and adventurers.</p>
               <p>
-                A full-stack Django App for wilderness lovers and adventurers. 
                 User's can login with Django's built-in authentication to keep track of 
                 their favorite camping sites. 
                 Disperse features a "find my location" option that aides in displaying a map of the area.
@@ -54,11 +54,12 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>onit</h2>
+              <p>A collaborative project:</p>
               <p>
                 A task Management tool for the go-getter who wants to maintain balance and self-care.
                 Users will log-in through Google Firebase to create and manage their own personal to-do lists 
-                using full CRUD operations. I had the role of Lead Backend and Database Manager. I also assisted 
-                with features on the front end.
+                using full CRUD operations. I assumed the position of Lead Backend and Database Manager while also
+                contributing to front-end feature development.
               </p>
               <div className='d-flex justify-content-center'>
                 <Button
@@ -87,10 +88,11 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>Peculiar Charm</h2>
+              <p>A Gallery of the Unique and Odd.</p>
               <p>
-                A Gallery of the Unique and Odd. 
-                A full-stack Node/Express/mongoDB app where users can login to view, edit, 
-                contribute to or delete pieces in the collection.
+                A comprehensive full-stack application using Node.js, Express and MongoDB, encompassing 
+                all aspects of CRUD operations. This application empoweres users with secure login functionality
+                to seamlessly access, modify, contrubute to, and remove content within the collection.
               </p>
               <div className='d-flex justify-content-center'>
                 <Button
