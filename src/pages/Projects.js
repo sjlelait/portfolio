@@ -19,7 +19,7 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>Disperse</h2>
-              <p>A full-stack Django App for wilderness lovers and adventurers.</p>
+              <h6>A full-stack Django App for wilderness lovers and adventurers.</h6>
               <p>
                 User's can login with Django's built-in authentication to keep track of 
                 their favorite camping sites. 
@@ -54,7 +54,7 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>onit</h2>
-              <p>A collaborative project:</p>
+              <h6>A collaborative project:</h6>
               <p>
                 A task Management tool for the go-getter who wants to maintain balance and self-care.
                 Users will log-in through Google Firebase to create and manage their own personal to-do lists 
@@ -88,7 +88,7 @@ const Projects = (props) => {
             </div>
             <Carousel.Caption>
               <h2>Peculiar Charm</h2>
-              <p>A Gallery of the Unique and Odd.</p>
+              <h6>A Gallery of the Unique and Odd.</h6>
               <p>
                 A comprehensive full-stack application using Node.js, Express and MongoDB, encompassing 
                 all aspects of CRUD operations. This application empoweres users with secure login functionality
