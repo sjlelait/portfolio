@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container, Carousel, Button } from 'react-bootstrap';
+import { Container, Carousel, Button, Row } from 'react-bootstrap';
 
 const Projects = (props) => {
     return (
       <Container className='page-container'>
+        <Row className='title-row'>
         <h1>Featured Projects</h1>
+        </Row>
         < br/>
         <Carousel className='carousel' variant='dark'>
           <Carousel.Item>
@@ -87,7 +89,8 @@ const Projects = (props) => {
               <h2>Peculiar Charm</h2>
               <p>
                 A Gallery of the Unique and Odd. 
-                User can login to view, edit, contribute to or delete pieces in the collection.
+                A full-stack Node/Express/mongoDB app where users can login to view, edit, 
+                contribute to or delete pieces in the collection.
               </p>
               <div className='d-flex justify-content-center'>
                 <Button

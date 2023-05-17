@@ -16,9 +16,10 @@ const Home = (props) => {
                   options={{
                     strings: [
                       'Full Stack Developer',
-                      'Detail-Oriented Multi-tasker',
-                      'Nature Enthusiast',
-                      'Creative Collaborator'
+                      'Methodical Multitasker',
+                      'Creative Collaborator',
+                      'Nature Nerd',
+                      'Hilarity Hound'
                     ],
                     autoStart: true,
                     loop: true,

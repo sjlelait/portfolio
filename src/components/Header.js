@@ -21,7 +21,7 @@ const Header = (props) => {
             setExpanded(expanded ? false : 'expanded');
           }}>
         </Navbar.Toggle>
-        <Navbar.Collapse id='responsive-navbar-nav' className='responsive-navbar'>
+        <Navbar.Collapse align="end" title="Alignment" id='responsive-navbar-nav' className='responsive-navbar'>
           <Nav className='ms-auto nav-links justify-content-between'>
             <Nav.Link as={Link} to='/' onClick={() => setExpanded(false)}>
               Home
@@ -36,7 +36,7 @@ const Header = (props) => {
               Contact
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse>        
       </Navbar>
     );
   };
