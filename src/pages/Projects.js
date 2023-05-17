@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Carousel, Button, Row } from 'react-bootstrap';
+import disperse from '../assets/disperse.png';
 
 const Projects = (props) => {
     return (
@@ -13,7 +14,7 @@ const Projects = (props) => {
             <div className='image-container'>
               <img
                 className='d-block mx-auto img-fluid projectImage'
-                src='https://github.com/sjlelait/disperse/raw/main/media/spot_images/detail.png'
+                src={disperse}
                 alt='Disperse'
               />
             </div>
@@ -21,11 +22,9 @@ const Projects = (props) => {
               <h2>Disperse</h2>
               <h6>A full-stack Django App for wilderness lovers and adventurers.</h6>
               <p>
-                User's can login with Django's built-in authentication to keep track of 
-                their favorite camping sites. 
-                Disperse features a "find my location" option that aides in displaying a map of the area.
-                Other features include local weather data fetched from WeatherAPI 
-                and photo upload capabilities.
+                User's can login with Django's built-in authentication to manage their preferred camping spots. 
+                Disperse features a "find my location" feature that integrates a comprehensive map showcasing the area.
+                Additionally, Disperse incoporates dynamic local weather data sourced from WeatherAPI and photo upload capabilities.
               </p>
               <div className='d-flex justify-content-center'>
                 <Button

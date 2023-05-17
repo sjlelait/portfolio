@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
+import profile from '../assets/profile-img.jpg';
 
 const About = (props) => {
     return (
         <Container className='page-container'>
-            <img className='profile-img'src="https://disperse-sjl.s3.us-east-2.amazonaws.com/Profile.jpg" alt="Sara Le Lait" />
+            <img className='profile-img'src={profile} alt="Sara Le Lait" />
             <h1>Sara Le Lait</h1>
             <h3 className='about-p'>Software Developer</h3>
             <p className='about-p'>As a professional, I've had the opportunity to wear many hats, 

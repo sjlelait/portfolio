@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3Alt, faHtml5, faJsSquare, faNodeJs, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
+import logo from '../assets/Sara-logo.png';
+import girl from '../assets/github-girl.png';
 
 const Home = (props) => {
     return (
@@ -11,7 +13,7 @@ const Home = (props) => {
           <Row>
             <Col md={7}>
               <div className='intro-txt'>
-                <img className="logo" src="https://disperse-sjl.s3.us-east-2.amazonaws.com/Sara-logo.png" alt="Sara Le Lait" />
+                <img className="logo" src={logo} alt="Sara Le Lait" />
                 <Typewriter
                   options={{
                     strings: [
@@ -67,7 +69,7 @@ const Home = (props) => {
               </div>
             </Col>
             <Col md={5}>
-                <img className='home-img' src='https://disperse-sjl.s3.us-east-2.amazonaws.com/github+girl.png' alt='github-girl'></img>
+                <img className='home-img' src={girl} alt='Github-Girl'></img>
             </Col>
           </Row>
         </Container>        
