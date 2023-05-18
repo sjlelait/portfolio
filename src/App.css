@@ -114,7 +114,7 @@ body {
   border-color: black;
 }
 
-.about-p {
+.about-p, h6 {
   padding: 1rem 0 0 0;
 }
 
@@ -144,12 +144,8 @@ body {
   background:rgb(0, 0, 0);
 }
 
-.resume-link, .project-link {
-  color:#054c36;
-}
-
-.resume-link:hover, .project-link:hover {
-  color:#a4a4a4;
+.form-control {
+  background-color:#fdf8e2;
 }
 
 .footerTxt {
