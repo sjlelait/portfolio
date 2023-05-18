@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&display=swap');
+
 body {
   background: linear-gradient(to top right, #fa7406, #f9d039);
   background-repeat: no-repeat;
@@ -49,6 +51,7 @@ body {
 
 .logo {
   width: 18rem;
+  height: auto;
   padding: 1rem 0 1rem 0;
 }
 
@@ -145,7 +148,7 @@ body {
 }
 
 .form-control {
-  background-color:#fdf8e2;
+  background-color:#fdf8e2 !important;
 }
 
 .footerTxt {
