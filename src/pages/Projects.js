@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Carousel, Button, Row } from 'react-bootstrap';
 import disperse from '../assets/disperse.png';
+import onit from '../assets/onit.png';
+import peculiar from '../assets/peculiar-charm.png';
 
 const Projects = (props) => {
     return (
       <Container className='page-container'>
         <Row className='title-row'>
-        <h1>Featured Projects</h1>
+        <h2>Featured Projects</h2>
         </Row>
         < br/>
         <Carousel className='carousel' interval='9000' variant='dark'>
@@ -19,8 +21,8 @@ const Projects = (props) => {
               />
             </div>
             <Carousel.Caption>
-              <h2>Disperse</h2>
-              <h6>A full-stack Django App for wilderness lovers and adventurers.</h6>
+              <h1 className='project-title'>Disperse</h1>
+              <h5>A tool for wilderness lovers and adventurers.</h5>
               <p>
                 User's can login with Django's built-in authentication to manage their preferred camping spots. 
                 Disperse features a "find my location" feature that integrates a comprehensive map showcasing the area.
@@ -47,13 +49,13 @@ const Projects = (props) => {
             <div className='image-container'>
               <img
                 className='d-block mx-auto img-fluid projectImage'
-                src='https://i.imgur.com/LDxH1yo.png'
+                src={onit}
                 alt='onit'
               />
             </div>
             <Carousel.Caption>
-              <h2>onit</h2>
-              <h6>A collaborative project:</h6>
+              <h1 className='project-title'>onit</h1>
+              <h5>A collaborative project:</h5>
               <p>
                 A task Management tool for the go-getter who wants to maintain balance and self-care.
                 Users will log-in through Google Firebase to create and manage their own personal to-do lists 
@@ -81,13 +83,13 @@ const Projects = (props) => {
             <div className='image-container'>
               <img
                 className='d-block mx-auto img-fluid projectImage'
-                src='https://github.com/sjlelait/peculiar-charm/raw/main/Markdown/Peculiar%20Charm%20Index.png'
+                src={peculiar}
                 alt='Peculiar Charm'
               />
             </div>
             <Carousel.Caption>
-              <h2>Peculiar Charm</h2>
-              <h6>A Gallery of the Unique and Odd.</h6>
+              <h1 className='project-title'>Peculiar Charm</h1>
+              <h5>A Gallery of the Unique and Odd.</h5>
               <p>
                 A comprehensive full-stack application using Node.js, Express and MongoDB, encompassing 
                 all aspects of CRUD operations. This application empoweres users with secure login functionality

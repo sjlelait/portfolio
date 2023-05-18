@@ -127,6 +127,10 @@ body {
   color: black !important;
 }
 
+.project-title {
+  padding: .5rem;
+}
+
 .projectImage {
   width: 20rem;
   height: 15rem;
