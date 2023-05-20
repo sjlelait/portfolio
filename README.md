@@ -8,4 +8,4 @@
 - Bootstrap
 - Deployed with Netlify
 
-## [Here](https://saralelait.dev/} you willl find my peronal portfolio. 
+## [Here](https://saralelait.dev/) you willl find my peronal portfolio. 
