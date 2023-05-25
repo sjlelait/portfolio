@@ -26,7 +26,7 @@ const Projects = (props) => {
               <p>
                 User's can login with Django's built-in authentication to manage their preferred camping spots. 
                 Disperse features a "find my location" feature that integrates a comprehensive map showcasing the area.
-                Additionally, Disperse incoporates dynamic local weather data sourced from WeatherAPI and photo upload capabilities.
+                Additionally, Disperse incorporates dynamic local weather data sourced from WeatherAPI and photo upload capabilities.
               </p>
               <div className='d-flex justify-content-center'>
                 <Button
