@@ -65,14 +65,14 @@ const Projects = (props) => {
               <div className='d-flex justify-content-center'>
                 <Button
                   variant='dark' size='sm' 
-                  href='https://onit-notes.netlify.app/'
+                  href='https://onit-app.netlify.app/'
                   target='_blank' 
                   rel='noopener noreferrer'
                   style={{marginRight: '1rem'}}>Deployed App
                 </Button>
                 <Button
                   variant='dark' size='sm' 
-                  href='https://git.generalassemb.ly/smedina2494/onit-backend'
+                  href='https://github.com/sjlelait/onit-frontend'
                   target='_blank' 
                   rel='noopener noreferrer'>GitHub
                 </Button>
