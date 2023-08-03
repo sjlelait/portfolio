@@ -33,7 +33,7 @@ function Form(props) {
             body: encode(formState)
         });
         setFormState(getNewState());
-        alert('Your form has been submitted!');
+        alert('Your contact request has been received!');
         window.location.href = '/';
     };
 
