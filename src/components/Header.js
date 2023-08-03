@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-
 import { Navbar, Nav } from 'react-bootstrap';
+import SL from '../assets/SL.png';
 
 const Header = (props) => {
   const [expanded, setExpanded] = useState(false);
@@ -13,7 +13,7 @@ const Header = (props) => {
         expanded={expanded}
         expand='md'
       >
-        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'>SL</Navbar.Brand>
+        <Navbar.Brand as={Link} to='/' className='navbar-brand-link'><img src={SL} alt='Sara Le Lait' className='SL'></img></Navbar.Brand>
         <Navbar.Toggle
           className='navbar-toggler'
           aria-controls='responsive-navbar-nav'
