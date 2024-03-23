@@ -13,7 +13,7 @@ const Projects = (props) => {
         <h2>Featured Projects</h2>
       </Row>
       < br />
-      <Carousel className='carousel' interval='9000' variant='dark'>
+      <Carousel className='carousel' interval='30000' variant='dark'>
         <Carousel.Item>
           <div className='image-container'>
             <img
