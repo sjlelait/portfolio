@@ -24,12 +24,12 @@ const Projects = (props) => {
           </div>
           <Carousel.Caption>
             <h1 className='project-title'>Yadeeda</h1>
-            <h5>Client website to showcase songs to learn French.</h5>
+            <h5>A French learning website.</h5>
             <p>
-              Yadeeda integrates client's previous website into a new interactive React-based site.
-              Purposed to emphasize rediretion to the client's YouTube channel.
+              Modernized client's previous website using React to emphasize redirect to client’s YouTube Channel.
               Users can now view dynamic content from YouTube and view all albums with print-friendly song lyrics.
-              I utilized Tailwind to improve user engagement and to highlight the Yadeeda brand, modernized using Canva.
+              Improved user engagement by incorporating visually appealing design elements with Canva and Tailwind
+              that highlight the brand.
             </p>
             <div className='d-flex justify-content-center'>
               <Button
@@ -62,7 +62,7 @@ const Projects = (props) => {
             <p>
               Disperse allows users to login with Django's built-in authentication and manage their preferred camping spots.
               The application features a "find my location" option that integrates a comprehensive map showcasing the area.
-              Additionally, Disperse incorporates dynamic local weather data sourced from WeatherAPI and offers photo upload capabilities.
+              Disperse incorporates dynamic local weather data sourced from WeatherAPI and offers photo upload capabilities.
             </p>
             <div className='d-flex justify-content-center'>
               <Button
@@ -90,12 +90,12 @@ const Projects = (props) => {
             />
           </div>
           <Carousel.Caption>
-            <h1 className='project-title'>onit</h1>
-            <h5>A collaborative project:</h5>
+            <h1 className='project-title'>Onit</h1>
+            <h5>A task management tool</h5>
             <p>
               A task Management tool for the go-getter who wants to maintain balance and self-care.
               Users will log-in through Google Firebase to create and manage their own personal to-do lists
-              using full CRUD operations. I assumed the position of Lead Backend and Database Manager while actively
+              using full create, read, update, delete (CRUD) operations. Assumed the position of Lead Backend and Database Manager while actively
               contributing to front-end feature development.
             </p>
             <div className='d-flex justify-content-center'>
